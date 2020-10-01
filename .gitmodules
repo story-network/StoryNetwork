@@ -1,9 +1,9 @@
 [submodule "storymap"]
 	path = storymap
-	url = ./storymap
+	url = https://github.com/story-network/storymap.git
 [submodule "story-network-common"]
 	path = story-network-common
-	url = ./story-network-common
+	url = https://github.com/story-network/story-network-common.git
 [submodule "pancake-server"]
 	path = pancake-server
-	url = ./pancake-server
+	url = https://github.com/story-network/pancake-server.git

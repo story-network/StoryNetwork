@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "storymap"
+		},
+		{
+			"path": "story-network-common"
+		},
+		{
+			"path": "pancake-server"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "disabled"
+	}
+}
