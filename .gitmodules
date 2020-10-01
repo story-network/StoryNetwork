@@ -1,0 +1,9 @@
+[submodule "storymap"]
+	path = storymap
+	url = ./storymap
+[submodule "story-network-common"]
+	path = story-network-common
+	url = ./story-network-common
+[submodule "pancake-server"]
+	path = pancake-server
+	url = ./pancake-server
