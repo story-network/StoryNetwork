@@ -9,4 +9,4 @@
 	url = https://github.com/story-network/pancake-server.git
 [submodule "maven"]
 	path = maven
-	url = ./maven
+	url = https://github.com/story-network/maven.git
