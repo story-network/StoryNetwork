@@ -13,3 +13,6 @@
 [submodule "example-plugin"]
 	path = example-plugin
 	url = https://github.com/story-network/example-plugin.git
+[submodule "example-mod"]
+	path = example-mod
+	url = https://github.com/story-network/example-mod.git
