@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven {
+            url = 'https://maven.pkg.github.com/story-network/storymap'
+        }
+    }
+}
+
+rootProject.name = 'example-plugin'

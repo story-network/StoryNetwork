@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        jcenter()
+
+        maven {
+            url = 'https://maven.heartpattern.io/repository/maven-public/'
+        }
+    }
+
+    dependencies {
+        classpath files('../storymap/build/libs/storymap-1.0.0.jar')
+        classpath files('../story-network-common/build/libs/story-network-common-1.0.0.jar')
+        classpath 'com.google.code.gson:gson:2.8.6'
+        classpath 'io.heartpattern:mcremapper:2.0.2-SNAPSHOT'
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+apply plugin: 'sh.pancake.storymap'
+
+// Info
+group 'sh.pancake'
+version '1.0.0'
+
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
+compileJava.options.encoding = 'UTF-8'
+
+minecraft {
+    version = '1.16.3'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile files('../pancake-server/build/libs/pancake-server-1.0.0-all.jar')
+}

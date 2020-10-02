@@ -1,0 +1,7 @@
+{
+    "id": "example-plugin",
+    "name": "ExamplePlugin",
+    "description": "Example plugin for Pancake server!",
+    "authors": [ "storycraft" ],
+    "entrypoint": "sh.pancake.plugin.example.ExamplePlugin"
+}

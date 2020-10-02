@@ -7,3 +7,6 @@
 [submodule "pancake-server"]
 	path = pancake-server
 	url = https://github.com/story-network/pancake-server.git
+[submodule "maven"]
+	path = maven
+	url = ./maven

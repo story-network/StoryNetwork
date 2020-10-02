@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "pancake-server"
+		},
+		{
+			"path": "example-plugin"
 		}
 	],
 	"settings": {

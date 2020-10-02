@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "sh.pancake",
+    "module": "storymap",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "aell4riwize77mtelkvs5se3aq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 9,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "storymap-1.0.0.jar",
+          "url": "storymap-1.0.0.jar",
+          "size": 16671,
+          "sha512": "4edb5c9b83d8a50ea20ff0ff883b09b175ebeb081f8d1c70f213ee3de4efa35f73380abf7b807b4454e5c0c1726fd75d20e068e47b1605d3d6d7195aa54dc9c1",
+          "sha256": "78504937aa555e7d7d4d2e2ba33bc390047363198a7757ae036d5b3967890a8b",
+          "sha1": "d8de90c11a548942fade5259b270cb4add463dec",
+          "md5": "090c46e9a937209d9433428b0246f845"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 9,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "sh.pancake",
+          "module": "story-network-common",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.heartpattern",
+          "module": "mcremapper",
+          "version": {
+            "requires": "2.0.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "storymap-1.0.0.jar",
+          "url": "storymap-1.0.0.jar",
+          "size": 16671,
+          "sha512": "4edb5c9b83d8a50ea20ff0ff883b09b175ebeb081f8d1c70f213ee3de4efa35f73380abf7b807b4454e5c0c1726fd75d20e068e47b1605d3d6d7195aa54dc9c1",
+          "sha256": "78504937aa555e7d7d4d2e2ba33bc390047363198a7757ae036d5b3967890a8b",
+          "sha1": "d8de90c11a548942fade5259b270cb4add463dec",
+          "md5": "090c46e9a937209d9433428b0246f845"
+        }
+      ]
+    }
+  ]
+}
