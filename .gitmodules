@@ -10,3 +10,6 @@
 [submodule "maven"]
 	path = maven
 	url = https://github.com/story-network/maven.git
+[submodule "example-plugin"]
+	path = example-plugin
+	url = ./example-plugin
