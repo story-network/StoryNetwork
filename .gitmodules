@@ -12,4 +12,4 @@
 	url = https://github.com/story-network/maven.git
 [submodule "example-plugin"]
 	path = example-plugin
-	url = ./example-plugin
+	url = https://github.com/story-network/example-plugin.git
