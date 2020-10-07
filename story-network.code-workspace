@@ -1,9 +1,6 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
 			"path": "storymap"
 		},
 		{
@@ -17,6 +14,9 @@
 		},
 		{
 			"path": "example-mod"
+		},
+		{
+			"path": "maven"
 		}
 	],
 	"settings": {
